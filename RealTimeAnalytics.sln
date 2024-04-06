@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealTimeAnalytics.DataProcessor", "RealTimeAnalytics.DataProcessor\RealTimeAnalytics.DataProcessor.csproj", "{DD006A61-B09B-42EB-8C91-B67F59EAAF73}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealTimeAnalytics.MongoDBService", "RealTimeAnalytics.MongoDBService\RealTimeAnalytics.MongoDBService.csproj", "{119FE8E0-309A-4DCC-9816-F50ACAAC13BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealTimeAnalytics.Shared", "RealTimeAnalytics.Shared\RealTimeAnalytics.Shared.csproj", "{AE9CA30F-8E7C-401C-B78B-418E571E84BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealTimeAnalytics.API", "RealTimeAnalytics.API\RealTimeAnalytics.API.csproj", "{17302FC9-89A0-414C-B6BB-E13BB5C3C17E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealTimeAnalytics.DataGenerator", "RealTimeAnalytics.DataGenerator\RealTimeAnalytics.DataGenerator.csproj", "{18982E2D-69CB-47AE-B0C6-9096B587B55C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0CE4F46F-B3A7-4EC1-97DB-AC01593C3F13}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD006A61-B09B-42EB-8C91-B67F59EAAF73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD006A61-B09B-42EB-8C91-B67F59EAAF73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD006A61-B09B-42EB-8C91-B67F59EAAF73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD006A61-B09B-42EB-8C91-B67F59EAAF73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{119FE8E0-309A-4DCC-9816-F50ACAAC13BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{119FE8E0-309A-4DCC-9816-F50ACAAC13BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{119FE8E0-309A-4DCC-9816-F50ACAAC13BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{119FE8E0-309A-4DCC-9816-F50ACAAC13BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE9CA30F-8E7C-401C-B78B-418E571E84BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE9CA30F-8E7C-401C-B78B-418E571E84BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE9CA30F-8E7C-401C-B78B-418E571E84BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE9CA30F-8E7C-401C-B78B-418E571E84BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17302FC9-89A0-414C-B6BB-E13BB5C3C17E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17302FC9-89A0-414C-B6BB-E13BB5C3C17E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17302FC9-89A0-414C-B6BB-E13BB5C3C17E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17302FC9-89A0-414C-B6BB-E13BB5C3C17E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18982E2D-69CB-47AE-B0C6-9096B587B55C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18982E2D-69CB-47AE-B0C6-9096B587B55C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18982E2D-69CB-47AE-B0C6-9096B587B55C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18982E2D-69CB-47AE-B0C6-9096B587B55C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEA6FA88-6F09-4191-ACA5-CFB72A4E54C9}
+	EndGlobalSection
+EndGlobal
